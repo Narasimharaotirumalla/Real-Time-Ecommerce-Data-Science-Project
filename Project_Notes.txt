@@ -1,0 +1,26 @@
+STEP 1 — BUSINESS PROBLEM
+
+Project Objective:
+
+Analyze e-commerce product data to identify demand patterns
+and build a machine learning system that can predict product demand.
+
+Status: COMPLETE
+
+
+STEP 1 — PART 2
+API / DATA SOURCE SELECTION
+
+Selected API:
+DummyJSON Product API
+
+Reason:
+It provides e-commerce product data including product name,
+category, price, discount, rating, stock, brand and other
+product attributes through REST API endpoints.
+
+Purpose:
+We will use the API to learn real-world API-based data
+collection and build the data pipeline for our project.
+
+Status: COMPLETE

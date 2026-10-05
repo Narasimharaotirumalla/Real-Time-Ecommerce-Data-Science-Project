@@ -1,0 +1,15 @@
+| Stage                                                  | Status                |
+| ------------------------------------------------------ | --------------------- |
+| 1. Data Collection / API                               | ✅ COMPLETE            |
+| 2. Data Cleaning & Validation                          | ✅ COMPLETE            |
+| 3. EDA / Business Analysis                             | ✅ COMPLETE            |
+| 4. Feature Engineering                                 | ✅ COMPLETE            |
+| **5. Business Intelligence + Selected Visualizations** | **⬅️ NEXT / CURRENT** |
+| 6. SQL Analysis                                        | ⏳ Pending             |
+| 7. ML / Demand Prediction                              | ⏳ Pending             |
+| 8. Model Evaluation                                    | ⏳ Pending             |
+| 9. API / Dashboard                                     | ⏳ Pending             |
+| 10. GitHub + README + Resume                           | ⏳ Final               |
+
+
+Business Intelligence → Selected Visualization #2
