@@ -582,3 +582,105 @@ The emphasis is on connecting technical analysis with real-world business decisi
 
 
 
+
+
+\---
+
+
+
+\## Streamlit Dashboard
+
+
+
+This project includes a Streamlit dashboard for exploring e-commerce product information and monitoring inventory and stock status.
+
+
+
+\### Dashboard Features
+
+
+
+\* \*\*Key Performance Indicators (KPIs):\*\* Total products, total inventory value, average product rating, low-stock products, and out-of-stock products.
+
+\* \*\*Inventory Value by Category:\*\* A vertical bar chart comparing inventory value across product categories.
+
+\* \*\*Product Availability by Category:\*\* A stacked bar chart showing product availability status by category.
+
+\* \*\*Category Filter:\*\* Filter the dashboard by one or more product categories.
+
+\* \*\*Product Search:\*\* Search products by title or brand.
+
+\* \*\*Product Details Table:\*\* View product price, rating, stock, availability status, and inventory value.
+
+
+
+\### Technologies Used
+
+
+
+\* Python
+
+\* Streamlit
+
+\* Pandas
+
+\* Plotly
+
+\* SQLite
+
+
+
+\### Run the Dashboard Locally
+
+
+
+1\. Clone or download this repository.
+
+
+
+2\. Open a terminal in the project root directory.
+
+
+
+3\. Install the required packages:
+
+
+
+&#x20;  ```bash
+
+&#x20;  python -m pip install streamlit pandas plotly
+
+&#x20;  ```
+
+
+
+4\. Run the dashboard:
+
+
+
+&#x20;  ```bash
+
+&#x20;  python -m streamlit run dashboard/app.py
+
+&#x20;  ```
+
+
+
+5\. Open the local URL displayed in the terminal.
+
+
+
+\### Data Source
+
+
+
+The dashboard reads product information from the SQLite database at `notebooks/ecommerce.db`, using the `products` table.
+
+
+
+\*\*Note:\*\* Inventory and stock metrics are based on the available product dataset. They should not be interpreted as actual demand forecasts.
+
+
+
+
+
