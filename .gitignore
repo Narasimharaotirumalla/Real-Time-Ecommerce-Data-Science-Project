@@ -14,3 +14,4 @@ data/*.csv
 
 .DS_Store
 Thumbs.db
+!notebooks/ecommerce.db

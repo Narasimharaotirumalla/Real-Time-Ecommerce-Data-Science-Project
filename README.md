@@ -682,5 +682,39 @@ The dashboard reads product information from the SQLite database at `notebooks/e
 
 
 
+## GenAI E-commerce Product Intelligence Chatbot
+
+This project includes a local AI chatbot built using Streamlit,
+Ollama, and the Qwen2.5 1.5B language model.
+
+### Features
+
+- Chat-style web interface
+- Product information from SQLite
+- Product price and rating questions
+- Python-based verification for supported questions
+- Local LLM responses using Ollama
+
+### Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- SQLite
+- Ollama
+- Qwen2.5 1.5B
+
+### Run the Chatbot Locally
+
+1. Ensure Python 3.14 and Ollama are installed.
+
+2. Ensure the product database exists at:
+   `notebooks/ecommerce.db`
+
+3. Download the model if needed:
+
+   ```bash
+   ollama run qwen2.5:1.5b
+
 
 
